@@ -7,10 +7,10 @@ brew:
    - homebrew/binary
    - homebrew/fuse
    - peco/peco
-   - motemen/ghq
    - caskroom/fonts
    - osx-cross/avr
    - sanemat/font
+   - simeji/jid
  install_packages:
    - coreutils
    - findutils
@@ -20,7 +20,6 @@ brew:
    - hub
    - tig
    - ghq
-   - imagemagick
    - wget
    - rsync
    - curl
@@ -36,9 +35,9 @@ brew:
    - ruby-build
    - node
    - the_silver_searcher
-   - cmigemo
-   - libevent
-   - ricty
+   - jid
+   - boost
+   - pyenv
  install_apps:
    - java
    - google-chrome
@@ -46,5 +45,6 @@ brew:
    - google-japanese-ime
    - the-unarchiver
    - slack
+   - hammerspoon
 ruby:
   version: 2.3.1
