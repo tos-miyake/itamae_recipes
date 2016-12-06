@@ -38,6 +38,9 @@ brew:
    - jid
    - boost
    - pyenv
+   - mysql
+   - mecab
+   - mecab-ipadic
  install_apps:
    - java
    - google-chrome
