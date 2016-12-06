@@ -17,6 +17,7 @@ brew:
    - zsh
    - tmux
    - git
+   - git-now
    - hub
    - tig
    - ghq
