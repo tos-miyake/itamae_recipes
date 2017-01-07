@@ -42,6 +42,18 @@ brew:
    - mysql
    - mecab
    - mecab-ipadic
+   - fontforge --with-python
+   - mongodb # shellが使いたい
+   - avr-gcc # ergodox_ezのkeymapのコンパイルに必要
+   - avr-gcc
+   - avr-libc
+   - avr-binutils
+   - gcc
+   - teensy_loader_cli
+   - dfu-programmer
+   - reattach-to-user-namespace #tmux clipbord
+   - elixir
+   - cmatrix
  install_apps:
    - java
    - google-chrome
@@ -50,5 +62,8 @@ brew:
    - the-unarchiver
    - slack
    - hammerspoon
+   - appcleaner
+   - insomnia
+   - bettertouchtool
 ruby:
   version: 2.3.1
