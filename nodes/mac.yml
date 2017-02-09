@@ -6,11 +6,11 @@ brew:
    - homebrew/versions
    - homebrew/binary
    - homebrew/fuse
-   - peco/peco
    - caskroom/fonts
    - osx-cross/avr
    - sanemat/font
    - simeji/jid
+     caskroom/fonts
  install_packages:
    - coreutils
    - findutils
@@ -53,10 +53,10 @@ brew:
    - dfu-programmer
    - reattach-to-user-namespace #tmux clipbord
    - elixir
-   - cmatrix
+   - font-fira-code
+   - graphviz # rails erd
  install_apps:
    - java
-   - google-chrome
    - iterm2
    - google-japanese-ime
    - the-unarchiver
@@ -64,6 +64,5 @@ brew:
    - hammerspoon
    - appcleaner
    - insomnia
-   - bettertouchtool
 ruby:
   version: 2.3.1
