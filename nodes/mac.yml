@@ -9,8 +9,6 @@ brew:
    - caskroom/fonts
    - osx-cross/avr
    - sanemat/font
-   - simeji/jid
-     caskroom/fonts
  install_packages:
    - coreutils
    - findutils
@@ -43,26 +41,21 @@ brew:
    - mecab
    - mecab-ipadic
    - fontforge --with-python
-   - mongodb # shellが使いたい
    - avr-gcc # ergodox_ezのkeymapのコンパイルに必要
-   - avr-gcc
-   - avr-libc
    - avr-binutils
    - gcc
    - teensy_loader_cli
    - dfu-programmer
    - reattach-to-user-namespace #tmux clipbord
    - elixir
-   - font-fira-code
+   #- font-fira-code
    - graphviz # rails erd
+   - exa
+   - git-secrets
  install_apps:
-   - java
-   - iterm2
-   - google-japanese-ime
    - the-unarchiver
    - slack
-   - hammerspoon
    - appcleaner
    - insomnia
 ruby:
-  version: 2.3.1
+  version: 2.4.1
